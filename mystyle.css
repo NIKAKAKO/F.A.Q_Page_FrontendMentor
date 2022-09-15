@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;500;700;800&family=Plus+Jakarta+Sans:wght@500;700;800&display=swap');
+
+
+body {
+display:flex;
+justify-content:center;
+align-items:center;
+background:linear-gradient(180deg, #B068E9 0%, #6463E7 100%);
+width:100vw;
+height:100vh;
+margin:0px;
+font-family: 'Kumbh Sans', sans-serif;
+font-family: 'Plus Jakarta Sans', sans-serif;
+font-size:14px;
+}
+.maindiv{
+
+    width:900px;
+    background:#FFFFFF;
+    box-shadow: 0px 50px 50px -20px rgba(53, 18, 122, 0.497159);
+border-radius: 23px;
+
+display:flex;
+justify-content:space-between;
+
+
+}
+.maintext {
+flex-basis:50% ;
+background-repeat:no-repeat;
+padding-bottom:18px;
+display:flex;
+justify-content: flex-start;
+flex-direction:column;
+margin-right:111px;
+margin-top:65px;
+margin-bottom:85px;
+}
+
+.faqquestion {
+    border-bottom:1px solid #E8E8EA;
+    padding-top:18px;
+   
+
+    width:100%;
+    background-image: url("/images/icon-arrow-down.svg");
+    background-position:right;
+    background-repeat:no-repeat;
+}
+
+.bgdiv {
+    flex-basis:50% ;
+    background-image: url("/images/bg-pattern-desktop.svg");
+   
+    background-size:150%;
+    background-position:-250px;
+    background-repeat: no-repeat;
+    overflow:hidden;
+  
+}
+
+.imgmain {
+    transform:translate(-18%, 20%);
+    background-image: url("/images/illustration-woman-online-desktop.svg");
+    overflow:hidden;
+    width:100%;
+    height:100%;
+background-repeat: no-repeat;
+background-size:100%;
+overflow:hidden;
+}
+
+.overflow {
+width:100%;
+
+height:100%;
+
+}
+
+.imgsub {
+position:absolute;
+left:37px;
+top: 300px;
+z-index:1;
+
+
+    
+}
+.hiddenside {
+visibility: collapse;
+
+}
